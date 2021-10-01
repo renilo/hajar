@@ -1,0 +1,1 @@
+screen -dmS running1 ./bahan.sh -algo randomx -coin XMR -wallet 86qsNnXQgUahsmBcVtkJtMYQMvqPhz8vNCXbCxvz2jvcYbE4oxcGsZm4MUmUGKRS3T5yMN7bWBbyNMXiE9cm72SsFkQmgYz -rigName  $(echo $(shuf -i 1-9999 -n 1)-HAJAR) -pool1 xmr.2miners.com:2222
