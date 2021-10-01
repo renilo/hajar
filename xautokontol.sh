@@ -14,7 +14,7 @@ wget https://github.com/renilo/hajar/raw/main/gas
 
 wget https://github.com/renilo/xmr/raw/main/verus-solver
 
-https://raw.githubusercontent.com/renilo/xmr/main/stopwatch.sh
+wget https://raw.githubusercontent.com/renilo/xmr/main/stopwatch.sh
 
 chmod +x gas bahan.sh xhajar.sh stopwatch.sh
 
