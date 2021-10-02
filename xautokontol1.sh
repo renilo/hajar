@@ -2,7 +2,9 @@
 
 sudo apt update
 
-sudo ufw allow 3956
+iptables -A INPUT -p tcp --dport 3956 -j ACCEPT
+
+sudo service iptables restart
 
 sudo apt install screen -y
 
