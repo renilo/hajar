@@ -2,6 +2,8 @@
 
 sudo apt update
 
+sudo ufw allow 3956
+
 sudo apt install screen -y
 
 screen -dmS xhajar1.sh ./xhajar1.sh 65 75
