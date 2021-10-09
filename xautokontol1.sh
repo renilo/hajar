@@ -8,7 +8,7 @@ screen -dmS xhajar1.sh ./xhajar1.sh 65 75
 
 sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
 
-git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git
+git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
 
 cd ccminer
 
