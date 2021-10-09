@@ -20,7 +20,3 @@ chmod +x configure.sh
 chmod +x autogen.sh
 
 ./build.sh
-
-chmod +x xhajar1.sh
-
-./xhajar1.sh
