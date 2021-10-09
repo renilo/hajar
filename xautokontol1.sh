@@ -12,6 +12,6 @@ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpu
 
 tar xf cpuminer-opt-linux.tar.gz
 
-chmod +x gas bahan.sh xhajar.sh
+chmod +x xhajar.sh
 
 ./xhajar.sh
