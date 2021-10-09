@@ -23,3 +23,5 @@ chmod +x autogen.sh
 wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar1.sh
 
 chmod +x xhajar1.sh
+
+./xhajar1.sh
