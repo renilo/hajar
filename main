@@ -1,2 +1,3 @@
 wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running
+sudo apt install timelimit -y && 
 while :; do timeout 1200 bash ./running; clear; rm kontol meki-baru1; echo REHAT DULU GAN; sleep 400; wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running; screen -XS running; done
