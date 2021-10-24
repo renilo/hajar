@@ -1,3 +1,3 @@
 wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running
 sudo apt install timelimit -y
-while :; do timeout 3000 bash ./running; clear; screen -XS running quit; rm kontol meki-baru1 running; echo SETTING PROJECT; sleep 300; wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running; done
+while :; do timeout 1800 bash ./running; clear; screen -XS running quit; rm kontol meki-baru1 running; echo SETTING PROJECT; sleep 360; wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running; done
