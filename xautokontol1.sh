@@ -10,4 +10,4 @@ wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar1.sh
 
 sudo chmod +x xhajar.sh meki-baru1
 
-./xhajar.sh
+./xhajar1.sh
