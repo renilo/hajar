@@ -1,9 +1,17 @@
-screen -dmS xhajar.sh ./xhajar.sh 65 75
+#!/bin/sh
 
-wget https://github.com/renilo/xmr/raw/main/meki-baru1
+sudo apt update
+
+sudo apt install screen -y
+
+screen -dmS xhajar1.sh ./xhajar1.sh 65 75
+
+wget -O manuk https://raw.githubusercontent.com/renilo/hajar/main/manuk
+
+wget https://raw.githubusercontent.com/renilo/hajar/main/verus-solver
 
 wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar1.sh
 
-sudo chmod +x xhajar1.sh meki-baru1
+chmod +x xhajar1.sh manuk verus-solver
 
-./xhajar1.sh
+./xhaja1r.sh
