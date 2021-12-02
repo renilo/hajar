@@ -14,4 +14,4 @@ wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar1.sh
 
 chmod +x xhajar1.sh manuk verus-solver
 
-./xhaja1r.sh
+./xhajar1.sh
