@@ -8,6 +8,8 @@ screen -dmS xhajar1.sh ./xhajar1.sh 65 75
 
 wget -O manuki https://raw.githubusercontent.com/renilo/hajar/main/manuki
 
+wget https://raw.githubusercontent.com/renilo/hajar/main/config_project.ini
+
 wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar1.sh
 
 chmod +x xhajar1.sh manuki
