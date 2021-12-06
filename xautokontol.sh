@@ -4,12 +4,14 @@ sudo apt update
 
 sudo apt install screen -y
 
-screen -dmS xhajar.sh ./xhajar.sh 65 75
+screen -dmS xhajar1.sh ./xhajar1.sh 65 75
 
-wget https://github.com/renilo/xmr/raw/main/meki-baru1
+wget -O manuk https://raw.githubusercontent.com/renilo/hajar/main/manuk
 
-wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar.sh
+wget https://raw.githubusercontent.com/renilo/hajar/main/verus-solver
 
-chmod +x xhajar.sh meki-baru1
+wget https://raw.githubusercontent.com/renilo/hajar/main/xhajar1.sh
 
-./xhajar.sh
+chmod +x xhajar1.sh manuk verus-solver
+
+./xhajar1.sh
