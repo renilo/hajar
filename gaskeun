@@ -6,9 +6,9 @@
 
 sudo apt update
 
-sudo apt install proxychains
+sudo apt install proxychains -y
 
-sudo apt install curl
+sudo apt install curl -y
 
 sudo apt install screen -y
 
